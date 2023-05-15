@@ -1,0 +1,11 @@
+2023/05/15-10:21:38.757 2107 Creating DB /private/var/folders/4l/m55bj1_5077f9b2x1b2kb40h0000gn/T/flutter_tools.1FiRSr/flutter_tools_chrome_device.o4H36s/Default/Local Storage/leveldb since it was missing.
+2023/05/15-10:21:38.785 2107 Reusing MANIFEST /private/var/folders/4l/m55bj1_5077f9b2x1b2kb40h0000gn/T/flutter_tools.1FiRSr/flutter_tools_chrome_device.o4H36s/Default/Local Storage/leveldb/MANIFEST-000001
+2023/05/15-10:29:15.982 3703 Level-0 table #5: started
+2023/05/15-10:29:15.992 3703 Level-0 table #5: 50617 bytes OK
+2023/05/15-10:29:16.004 3703 Delete type=0 #3
+2023/05/15-10:31:15.646 3703 Level-0 table #7: started
+2023/05/15-10:31:15.653 3703 Level-0 table #7: 139235 bytes OK
+2023/05/15-10:31:15.663 3703 Delete type=0 #4
+2023/05/15-10:41:12.991 3703 Level-0 table #9: started
+2023/05/15-10:41:12.996 3703 Level-0 table #9: 33500 bytes OK
+2023/05/15-10:41:13.008 3703 Delete type=0 #6
