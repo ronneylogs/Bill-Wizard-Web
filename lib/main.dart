@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import './mobile/mbHome.dart';
 import './pc/pcHome.dart';
 
+import 'package:adaptive_navbar/adaptive_navbar.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -56,17 +58,46 @@ class _MyHomePageState extends State<MyHomePage> {
     // getting the size of the window
     double screenWidth = MediaQuery.of(context).size.width;
     double screenHeight = MediaQuery.of(context).size.height;
-    return LayoutBuilder(
-      builder: (context, constraints) {
-        // mobile
-        if (constraints.maxWidth < 600) {
-          return mbHome();
-        }
-        // pc
-        else {
-          return pcHome();
-        }
-      },
+    double fontScale = MediaQuery.textScaleFactorOf(context);
+    final PageController _pageController = PageController();
+    return Scaffold(
+      appBar: AdaptiveNavBar(
+        backgroundColor: Colors.white,
+        titleTextStyle: TextStyle(color: Colors.black),
+        screenWidth: screenWidth,
+        title: const Text("Adaptive NavBar"),
+        navBarItems: [
+          
+          NavBarItem(
+            text: "Bills",
+            focusColor: Colors.black,
+            hoverColor: Colors.black,
+            splashColor: Colors.black,
+            overlayColor: MaterialStateProperty.all<Color>(Colors.black),
+            onTap: () {
+              Navigator.pushNamed(context, "routeName");
+            },
+          ),
+          NavBarItem(
+            text: "Friends",
+            onTap: () {
+              Navigator.pushNamed(context, "routeName");
+            },
+          ),
+        ],
+      ),
+      body: LayoutBuilder(
+        builder: (context, constraints) {
+          // mobile
+          if (constraints.maxWidth < 600) {
+            return mbHome();
+          }
+          // pc
+          else {
+            return pcHome();
+          }
+        },
+      ),
     );
   }
 }

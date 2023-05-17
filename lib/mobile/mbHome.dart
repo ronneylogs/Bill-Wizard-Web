@@ -16,27 +16,12 @@ class _mbHomeState extends State<mbHome> {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
-          appBar: AppBar(
-            backgroundColor: Colors.grey[100],
-            bottom: TabBar(
-              tabs: [
-                Tab(
-                    icon: Text("Receipts",
-                        style: TextStyle(
-                            color: Colors.black, fontWeight: FontWeight.w300))),
-                Tab(
-                    icon: Text("Friends",
-                        style: TextStyle(
-                            color: Colors.black, fontWeight: FontWeight.w300))),
-              ],
-            ),
-          ),
           body: Container(
-            color: Colors.white,
-            child: Column(
-              children: [],
-            ),
-          )),
+        color: Colors.white,
+        child: Column(
+          children: [],
+        ),
+      )),
     );
   }
 }

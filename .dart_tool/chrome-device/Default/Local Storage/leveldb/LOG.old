@@ -1,0 +1,27 @@
+2023/05/16-14:32:26.361 2c03 Reusing MANIFEST /private/var/folders/4l/m55bj1_5077f9b2x1b2kb40h0000gn/T/flutter_tools.cjdRXP/flutter_tools_chrome_device.PJtyGk/Default/Local Storage/leveldb/MANIFEST-000001
+2023/05/16-14:32:26.361 2c03 Recovering log #8
+2023/05/16-14:32:26.361 2c03 Reusing old log /private/var/folders/4l/m55bj1_5077f9b2x1b2kb40h0000gn/T/flutter_tools.cjdRXP/flutter_tools_chrome_device.PJtyGk/Default/Local Storage/leveldb/000008.log 
+2023/05/16-14:35:24.961 3a03 Level-0 table #12: started
+2023/05/16-14:35:24.967 3a03 Level-0 table #12: 69436 bytes OK
+2023/05/16-14:35:24.978 3a03 Delete type=0 #8
+2023/05/16-14:36:03.876 3a03 Level-0 table #14: started
+2023/05/16-14:36:03.883 3a03 Level-0 table #14: 51523 bytes OK
+2023/05/16-14:36:03.903 3a03 Delete type=0 #11
+2023/05/16-14:36:41.093 3a03 Level-0 table #16: started
+2023/05/16-14:36:41.101 3a03 Level-0 table #16: 44643 bytes OK
+2023/05/16-14:36:41.110 3a03 Delete type=0 #13
+2023/05/16-14:36:41.110 3a03 Compacting 4@0 + 1@1 files
+2023/05/16-14:36:41.119 3a03 Generated table #17@0: 158 keys, 147047 bytes
+2023/05/16-14:36:41.119 3a03 Compacted 4@0 + 1@1 files => 147047 bytes
+2023/05/16-14:36:41.127 3a03 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/16-14:36:41.128 3a03 Delete type=2 #14
+2023/05/16-14:36:41.128 3a03 Delete type=2 #16
+2023/05/16-14:36:41.128 3a03 Delete type=2 #7
+2023/05/16-14:36:41.128 3a03 Delete type=2 #12
+2023/05/16-14:36:41.129 3a03 Delete type=2 #9
+2023/05/16-14:39:00.602 3a03 Level-0 table #19: started
+2023/05/16-14:39:00.610 3a03 Level-0 table #19: 71155 bytes OK
+2023/05/16-14:39:00.620 3a03 Delete type=0 #15
+2023/05/16-14:40:42.681 3a03 Level-0 table #21: started
+2023/05/16-14:40:42.686 3a03 Level-0 table #21: 41142 bytes OK
+2023/05/16-14:40:42.696 3a03 Delete type=0 #18
