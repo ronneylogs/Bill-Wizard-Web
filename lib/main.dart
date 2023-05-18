@@ -7,6 +7,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:adaptive_navbar/adaptive_navbar.dart';
 import 'package:provider/provider.dart';
 import 'Controllers/MenuController.dart' as mc;
+import './screens/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,12 +26,9 @@ class MyApp extends StatelessWidget {
             scaffoldBackgroundColor: bgColor,
             textTheme: GoogleFonts.poppinsTextTheme(
                 Theme.of(context).textTheme.apply(bodyColor: Colors.black))),
-        home: MultiProvider(
-          providers: [
-            ChangeNotifierProvider(create: (context) => mc.MenuController())
-          ],
-          child: MainScreen(),
-        )
+        home: MultiProvider(providers: [
+          ChangeNotifierProvider(create: (context) => mc.MenuController())
+        ], child: LoginScreen())
 
         // const MainScreen(),
         );
