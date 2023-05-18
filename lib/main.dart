@@ -1,7 +1,9 @@
+import 'package:billwizardweb/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 import './mobile/mbHome.dart';
 import './pc/pcHome.dart';
-
+import './constants.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:adaptive_navbar/adaptive_navbar.dart';
 
 void main() {
@@ -16,88 +18,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
-        // changing the primarySwatch below to Colors.green and then invoke
-        // "hot reload" (press "r" in the console where you ran "flutter run",
-        // or simply save your changes to "hot reload" in a Flutter IDE).
-        // Notice that the counter didn't reset back to zero; the application
-        // is not restarted.
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    // getting the size of the window
-    double screenWidth = MediaQuery.of(context).size.width;
-    double screenHeight = MediaQuery.of(context).size.height;
-    double fontScale = MediaQuery.textScaleFactorOf(context);
-    final PageController _pageController = PageController();
-    return Scaffold(
-      appBar: AdaptiveNavBar(
-        backgroundColor: Colors.white,
-        titleTextStyle: TextStyle(color: Colors.black),
-        screenWidth: screenWidth,
-        title: const Text("Adaptive NavBar"),
-        navBarItems: [
-          
-          NavBarItem(
-            text: "Bills",
-            focusColor: Colors.black,
-            hoverColor: Colors.black,
-            splashColor: Colors.black,
-            overlayColor: MaterialStateProperty.all<Color>(Colors.black),
-            onTap: () {
-              Navigator.pushNamed(context, "routeName");
-            },
-          ),
-          NavBarItem(
-            text: "Friends",
-            onTap: () {
-              Navigator.pushNamed(context, "routeName");
-            },
-          ),
-        ],
-      ),
-      body: LayoutBuilder(
-        builder: (context, constraints) {
-          // mobile
-          if (constraints.maxWidth < 600) {
-            return mbHome();
-          }
-          // pc
-          else {
-            return pcHome();
-          }
-        },
-      ),
+      title: 'Bill Wizard',
+      theme: ThemeData.light().copyWith(
+          scaffoldBackgroundColor: bgColor,
+          textTheme: GoogleFonts.poppinsTextTheme(
+              Theme.of(context).textTheme.apply(bodyColor: Colors.black))),
+      home: const MainScreen(),
     );
   }
 }
