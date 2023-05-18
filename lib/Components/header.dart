@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 
 Row Header(BuildContext context) {
   return Row(
+    mainAxisAlignment: MainAxisAlignment.spaceBetween,
     children: [
       if (!Responsive.isDesktop(context))
         IconButton(
@@ -15,6 +16,7 @@ Row Header(BuildContext context) {
           icon: Icon(Icons.menu),
         ),
       Text("Bill Wizard", style: Theme.of(context).textTheme.headlineMedium),
+      const Text("Profile")
     ],
   );
 }

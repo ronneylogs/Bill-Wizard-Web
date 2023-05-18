@@ -21,13 +21,60 @@ class MainScreen extends StatelessWidget {
           children: [
             if (Responsive.isDesktop(context)) Expanded(child: SideMenu()),
             Expanded(
-                flex: 5,
-                child: Padding(
-                  padding: const EdgeInsets.all(defaultPadding),
-                  child: Column(
-                    children: [Header(context)],
-                  ),
-                )),
+              flex: 5,
+              child: Padding(
+                padding: const EdgeInsets.all(defaultPadding),
+                child: Column(
+                  children: [
+                    Header(context),
+                    Row(
+                      children: [
+                        Expanded(
+                          flex: 2,
+                          child: Column(
+                            children: [
+                              Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text("Receipts"),
+                                  ElevatedButton(
+                                      style: ElevatedButton.styleFrom(
+                                        primary: Colors.indigoAccent,
+                                      ),
+                                      onPressed: () {},
+                                      child: Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: Text("Add receipt",
+                                            style:
+                                                TextStyle(color: Colors.white)),
+                                      )),
+                                ],
+                              ),
+                              SizedBox(height: defaultPadding),
+                              GridView.builder(
+                                shrinkWrap: true,
+                                itemCount: 4,
+                                gridDelegate:
+                                    SliverGridDelegateWithFixedCrossAxisCount(
+                                        crossAxisCount: 4,
+                                        crossAxisSpacing: defaultPadding),
+                                itemBuilder: (context, index) => Container(
+                                    decoration: BoxDecoration(
+                                        color: secondaryColor,
+                                        borderRadius: BorderRadius.all(
+                                            Radius.circular(10)))),
+                              )
+                            ],
+                          ),
+                        ),
+                        Expanded(flex: 1, child: Container()),
+                      ],
+                    )
+                  ],
+                ),
+              ),
+            ),
           ],
         )));
   }
