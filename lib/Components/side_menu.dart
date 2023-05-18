@@ -8,9 +8,9 @@ Drawer SideMenu() {
         children: [
           DrawerHeader(child: Image.asset("assets/images/wizard.png")),
           DrawerListTile(
-              title: "Bills", iconSrc: Icon(Icons.money), press: () {}),
+              title: "Dashboard", iconSrc: Icon(Icons.money), press: () {}),
           DrawerListTile(
-              title: "Receipt", iconSrc: Icon(Icons.receipt), press: () {}),
+              title: "Settings", iconSrc: Icon(Icons.settings), press: () {}),
         ],
       ),
     ),

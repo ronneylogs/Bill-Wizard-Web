@@ -37,7 +37,7 @@ class _pcHomeState extends State<pcHome> {
                   children: [
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Receipts",
+                      child: Text("Dashboard",
                           style: TextStyle(
                               fontWeight: FontWeight.w300,
                               fontSize: fontScale * 25)),
@@ -48,7 +48,7 @@ class _pcHomeState extends State<pcHome> {
                   children: [
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Text("Friends",
+                      child: Text("Settings",
                           style: TextStyle(
                               fontWeight: FontWeight.w300,
                               fontSize: fontScale * 25)),
