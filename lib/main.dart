@@ -19,18 +19,21 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Bill Wizard',
-        theme: ThemeData.light().copyWith(
-            scaffoldBackgroundColor: bgColor,
-            textTheme: GoogleFonts.poppinsTextTheme(
-                Theme.of(context).textTheme.apply(bodyColor: Colors.black))),
-        home: MultiProvider(providers: [
-          ChangeNotifierProvider(create: (context) => mc.MenuController())
-        ], child: LoginScreen())
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (context) => mc.MenuController())
+      ],
+      child: MaterialApp(
+          debugShowCheckedModeBanner: false,
+          title: 'Bill Wizard',
+          theme: ThemeData.light().copyWith(
+              scaffoldBackgroundColor: bgColor,
+              textTheme: GoogleFonts.poppinsTextTheme(
+                  Theme.of(context).textTheme.apply(bodyColor: Colors.black))),
+          home: LoginScreen()
 
-        // const MainScreen(),
-        );
+          // const MainScreen(),
+          ),
+    );
   }
 }

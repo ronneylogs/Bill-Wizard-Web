@@ -1,4 +1,13 @@
-2023/05/18-11:13:51.799 3d03 Reusing MANIFEST /private/var/folders/4l/m55bj1_5077f9b2x1b2kb40h0000gn/T/flutter_tools.Kuxacs/flutter_tools_chrome_device.F7BbPw/Default/Session Storage/MANIFEST-000001
-2023/05/18-11:13:51.799 3d03 Recovering log #4
-2023/05/18-11:13:51.800 3d03 Reusing old log /private/var/folders/4l/m55bj1_5077f9b2x1b2kb40h0000gn/T/flutter_tools.Kuxacs/flutter_tools_chrome_device.F7BbPw/Default/Session Storage/000004.log 
-2023/05/18-11:13:51.800 3d03 Delete type=0 #3
+2023/05/18-14:59:38.899 2c03 Reusing MANIFEST /private/var/folders/4l/m55bj1_5077f9b2x1b2kb40h0000gn/T/flutter_tools.tSV472/flutter_tools_chrome_device.blxsNC/Default/Session Storage/MANIFEST-000001
+2023/05/18-14:59:38.899 2c03 Recovering log #4
+2023/05/18-14:59:38.900 2c03 Reusing old log /private/var/folders/4l/m55bj1_5077f9b2x1b2kb40h0000gn/T/flutter_tools.tSV472/flutter_tools_chrome_device.blxsNC/Default/Session Storage/000004.log 
+2023/05/18-14:59:38.900 2c03 Delete type=0 #3
+2023/05/18-15:53:26.270 3203 Level-0 table #8: started
+2023/05/18-15:53:26.278 3203 Level-0 table #8: 33238 bytes OK
+2023/05/18-15:53:26.291 3203 Delete type=0 #4
+2023/05/18-16:14:59.421 3203 Level-0 table #10: started
+2023/05/18-16:14:59.431 3203 Level-0 table #10: 66396 bytes OK
+2023/05/18-16:14:59.446 3203 Delete type=0 #7
+2023/05/18-16:34:29.426 3203 Level-0 table #12: started
+2023/05/18-16:34:29.431 3203 Level-0 table #12: 63605 bytes OK
+2023/05/18-16:34:29.445 3203 Delete type=0 #9

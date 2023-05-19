@@ -1,12 +1,51 @@
-2023/05/18-11:13:51.680 3d03 Reusing MANIFEST /private/var/folders/4l/m55bj1_5077f9b2x1b2kb40h0000gn/T/flutter_tools.Kuxacs/flutter_tools_chrome_device.F7BbPw/Default/Local Storage/leveldb/MANIFEST-000001
-2023/05/18-11:13:51.682 3d03 Recovering log #31
-2023/05/18-11:13:51.684 3d03 Reusing old log /private/var/folders/4l/m55bj1_5077f9b2x1b2kb40h0000gn/T/flutter_tools.Kuxacs/flutter_tools_chrome_device.F7BbPw/Default/Local Storage/leveldb/000031.log 
-2023/05/18-11:13:51.685 3d03 Delete type=2 #17
-2023/05/18-11:13:51.685 3d03 Delete type=2 #7
-2023/05/18-11:13:51.685 3d03 Delete type=2 #21
-2023/05/18-11:13:51.685 3d03 Delete type=2 #9
-2023/05/18-11:13:51.685 3d03 Delete type=2 #23
-2023/05/18-11:13:51.685 3d03 Delete type=2 #19
-2023/05/18-11:13:51.685 3d03 Delete type=0 #24
-2023/05/18-11:13:51.685 3d03 Delete type=0 #8
-2023/05/18-11:13:51.685 3d03 Delete type=0 #20
+2023/05/18-14:59:38.741 2c03 Reusing MANIFEST /private/var/folders/4l/m55bj1_5077f9b2x1b2kb40h0000gn/T/flutter_tools.tSV472/flutter_tools_chrome_device.blxsNC/Default/Local Storage/leveldb/MANIFEST-000001
+2023/05/18-14:59:38.742 2c03 Recovering log #31
+2023/05/18-14:59:38.742 2c03 Reusing old log /private/var/folders/4l/m55bj1_5077f9b2x1b2kb40h0000gn/T/flutter_tools.tSV472/flutter_tools_chrome_device.blxsNC/Default/Local Storage/leveldb/000031.log 
+2023/05/18-14:59:38.743 2c03 Delete type=2 #17
+2023/05/18-14:59:38.743 2c03 Delete type=2 #7
+2023/05/18-14:59:38.743 2c03 Delete type=2 #21
+2023/05/18-14:59:38.743 2c03 Delete type=2 #9
+2023/05/18-14:59:38.743 2c03 Delete type=2 #23
+2023/05/18-14:59:38.743 2c03 Delete type=2 #19
+2023/05/18-14:59:38.743 2c03 Delete type=0 #24
+2023/05/18-14:59:38.743 2c03 Delete type=0 #8
+2023/05/18-14:59:38.743 2c03 Delete type=0 #20
+2023/05/18-15:23:07.654 3203 Level-0 table #35: started
+2023/05/18-15:23:07.662 3203 Level-0 table #35: 73941 bytes OK
+2023/05/18-15:23:07.670 3203 Delete type=0 #31
+2023/05/18-15:44:27.003 3203 Level-0 table #37: started
+2023/05/18-15:44:27.011 3203 Level-0 table #37: 57070 bytes OK
+2023/05/18-15:44:27.022 3203 Delete type=0 #34
+2023/05/18-15:44:27.025 3203 Compacting 4@0 + 1@1 files
+2023/05/18-15:44:27.031 3203 Generated table #38@0: 243 keys, 132818 bytes
+2023/05/18-15:44:27.031 3203 Compacted 4@0 + 1@1 files => 132818 bytes
+2023/05/18-15:44:27.040 3203 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/18-15:44:27.040 3203 Delete type=2 #28
+2023/05/18-15:44:27.040 3203 Delete type=2 #35
+2023/05/18-15:44:27.040 3203 Delete type=2 #37
+2023/05/18-15:44:27.041 3203 Delete type=2 #32
+2023/05/18-15:44:27.041 3203 Delete type=2 #30
+2023/05/18-15:45:07.349 3203 Level-0 table #40: started
+2023/05/18-15:45:07.356 3203 Level-0 table #40: 44702 bytes OK
+2023/05/18-15:45:07.370 3203 Delete type=0 #36
+2023/05/18-16:00:26.994 3203 Level-0 table #42: started
+2023/05/18-16:00:27.001 3203 Level-0 table #42: 19681 bytes OK
+2023/05/18-16:00:27.012 3203 Delete type=0 #39
+2023/05/18-16:16:29.289 3203 Level-0 table #44: started
+2023/05/18-16:16:29.297 3203 Level-0 table #44: 20771 bytes OK
+2023/05/18-16:16:29.312 3203 Delete type=0 #41
+2023/05/18-16:26:26.987 3203 Level-0 table #46: started
+2023/05/18-16:26:26.995 3203 Level-0 table #46: 38999 bytes OK
+2023/05/18-16:26:27.007 3203 Delete type=0 #43
+2023/05/18-16:26:27.010 3203 Compacting 4@0 + 1@1 files
+2023/05/18-16:26:27.020 3203 Generated table #47@0: 292 keys, 149632 bytes
+2023/05/18-16:26:27.020 3203 Compacted 4@0 + 1@1 files => 149632 bytes
+2023/05/18-16:26:27.028 3203 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/18-16:26:27.029 3203 Delete type=2 #38
+2023/05/18-16:26:27.029 3203 Delete type=2 #42
+2023/05/18-16:26:27.029 3203 Delete type=2 #40
+2023/05/18-16:26:27.029 3203 Delete type=2 #44
+2023/05/18-16:26:27.029 3203 Delete type=2 #46
+2023/05/18-16:42:27.029 3203 Level-0 table #49: started
+2023/05/18-16:42:27.038 3203 Level-0 table #49: 20830 bytes OK
+2023/05/18-16:42:27.049 3203 Delete type=0 #45
